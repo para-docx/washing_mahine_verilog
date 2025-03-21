@@ -1,0 +1,59 @@
+VCD info: dumpfile waves.vcd opened for output.
+
+=== System Reset Complete at 200000 ns ===
+
+=== Test 1: Normal Delicate Cycle at 200000 ns ===
+Time: 330000 ns | State: FILL     | Cycle: 00 | Timer:  0 | Door Lock: 1 | Buzzer: 0
+Time: 370000 ns | State: FILL     | Cycle: 00 | Timer:  1 | Door Lock: 1 | Buzzer: 0
+Time: 390000 ns | State: FILL     | Cycle: 00 | Timer:  2 | Door Lock: 1 | Buzzer: 0
+Time: 410000 ns | State: FILL     | Cycle: 00 | Timer:  3 | Door Lock: 1 | Buzzer: 0
+Time: 430000 ns | State: FILL     | Cycle: 00 | Timer:  4 | Door Lock: 1 | Buzzer: 0
+Time: 450000 ns | State: WASH     | Cycle: 00 | Timer:  4 | Door Lock: 1 | Buzzer: 0
+Time: 470000 ns | State: WASH     | Cycle: 00 | Timer:  0 | Door Lock: 1 | Buzzer: 0
+Time: 490000 ns | State: WASH     | Cycle: 00 | Timer:  1 | Door Lock: 1 | Buzzer: 0
+Time: 510000 ns | State: WASH     | Cycle: 00 | Timer:  2 | Door Lock: 1 | Buzzer: 0
+Time: 530000 ns | State: WASH     | Cycle: 00 | Timer:  3 | Door Lock: 1 | Buzzer: 0
+Time: 550000 ns | State: WASH     | Cycle: 00 | Timer:  4 | Door Lock: 1 | Buzzer: 0
+Time: 570000 ns | State: WASH     | Cycle: 00 | Timer:  5 | Door Lock: 1 | Buzzer: 0
+Time: 590000 ns | State: WASH     | Cycle: 00 | Timer:  6 | Door Lock: 1 | Buzzer: 0
+Time: 610000 ns | State: WASH     | Cycle: 00 | Timer:  7 | Door Lock: 1 | Buzzer: 0
+Time: 630000 ns | State: WASH     | Cycle: 00 | Timer:  8 | Door Lock: 1 | Buzzer: 0
+Time: 650000 ns | State: WASH     | Cycle: 00 | Timer:  9 | Door Lock: 1 | Buzzer: 0
+Time: 670000 ns | State: DRAIN    | Cycle: 00 | Timer:  9 | Door Lock: 1 | Buzzer: 0
+Time: 690000 ns | State: RINSE    | Cycle: 00 | Timer:  0 | Door Lock: 1 | Buzzer: 0
+Time: 730000 ns | State: RINSE    | Cycle: 00 | Timer:  1 | Door Lock: 1 | Buzzer: 0
+Time: 750000 ns | State: RINSE    | Cycle: 00 | Timer:  2 | Door Lock: 1 | Buzzer: 0
+Time: 770000 ns | State: RINSE    | Cycle: 00 | Timer:  3 | Door Lock: 1 | Buzzer: 0
+Time: 790000 ns | State: RINSE    | Cycle: 00 | Timer:  4 | Door Lock: 1 | Buzzer: 0
+Time: 810000 ns | State: SPIN     | Cycle: 00 | Timer:  4 | Door Lock: 1 | Buzzer: 0
+Time: 830000 ns | State: SPIN     | Cycle: 00 | Timer:  0 | Door Lock: 1 | Buzzer: 0
+Time: 850000 ns | State: SPIN     | Cycle: 00 | Timer:  1 | Door Lock: 1 | Buzzer: 0
+Time: 870000 ns | State: SPIN     | Cycle: 00 | Timer:  2 | Door Lock: 1 | Buzzer: 0
+Time: 890000 ns | State: SPIN     | Cycle: 00 | Timer:  3 | Door Lock: 1 | Buzzer: 0
+Time: 910000 ns | State: SPIN     | Cycle: 00 | Timer:  4 | Door Lock: 1 | Buzzer: 0
+Time: 930000 ns | State: SPIN     | Cycle: 00 | Timer:  5 | Door Lock: 1 | Buzzer: 0
+Time: 950000 ns | State: SPIN     | Cycle: 00 | Timer:  6 | Door Lock: 1 | Buzzer: 0
+Time: 970000 ns | State: SPIN     | Cycle: 00 | Timer:  7 | Door Lock: 1 | Buzzer: 0
+Time: 990000 ns | State: 
+=== Test 2: Door Open During Wash at 990000 ns ===
+COMPLETE | Cycle: 00 | Timer:  7 | Door Lock: 0 | Buzzer: 1
+Time: 1010000 ns | State: COMPLETE | Cycle: 00 | Timer:  0 | Door Lock: 0 | Buzzer: 1
+Time: 1030000 ns | State: IDLE     | Cycle: 00 | Timer:  0 | Door Lock: 0 | Buzzer: 0
+Time: 7150000 ns | State: FILL     | Cycle: 00 | Timer:  0 | Door Lock: 1 | Buzzer: 0
+Time: 7190000 ns | State: FILL     | Cycle: 00 | Timer:  1 | Door Lock: 1 | Buzzer: 0
+Time: 7210000 ns | State: FILL     | Cycle: 00 | Timer:  2 | Door Lock: 1 | Buzzer: 0
+Time: 7230000 ns | State: FILL     | Cycle: 00 | Timer:  3 | Door Lock: 1 | Buzzer: 0
+Time: 7250000 ns | State: FILL     | Cycle: 00 | Timer:  4 | Door Lock: 1 | Buzzer: 0
+Time: 7270000 ns | State: 
+=== Test 3: Cycle Selection at 7270000 ns ===
+WASH     | Cycle: 00 | Timer:  4 | Door Lock: 1 | Buzzer: 0
+Time: 7290000 ns | State: WASH     | Cycle: 00 | Timer:  0 | Door Lock: 1 | Buzzer: 0
+Time: 7310000 ns | State: IDLE     | Cycle: 00 | Timer:  0 | Door Lock: 0 | Buzzer: 0
+Time: 7350000 ns | State: IDLE     | Cycle: 01 | Timer:  0 | Door Lock: 0 | Buzzer: 0
+Time: 7410000 ns | State: IDLE     | Cycle: 10 | Timer:  0 | Door Lock: 0 | Buzzer: 0
+Time: 7450000 ns | State: IDLE     | Cycle: 00 | Timer:  0 | Door Lock: 0 | Buzzer: 0
+
+=== Test Summary ===
+Total Errors: 0
+Total Time: 7670000 ns
+testbench/tb_washing_machine.v:212: $finish called at 7670000 (1ps)
