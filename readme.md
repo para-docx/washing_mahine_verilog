@@ -1,13 +1,12 @@
-# 🧺 Verilog Washing Machine Controller
+# Verilog Washing Machine Controller
 
 A synthesizable washing machine controller implemented in Verilog, featuring configurable wash cycles, safety mechanisms, and real-time state management. Ideal for FPGA implementation.
 
-## 🚀 Features
+## Features
 - **3 Wash Cycles**: Delicate, Normal, Heavy
 - **FSM States**: Fill, Wash, Rinse, Spin, Drain, Paused
 - **Safety Features**: Door lock, pause/resume on door open
 - **User Interface**: Cycle selection, timer display, status LEDs
-- **Synthesizable**: Optimized for FPGA implementation
 
 ## 📂 Repository Structure
 ├── src/
@@ -19,8 +18,8 @@ A synthesizable washing machine controller implemented in Verilog, featuring con
 └── README.md
 └── waves.vcd ### Waves dump file
 
-##📊 Results
-###Example Simulation Output:
+## 📊 Results
+### Example Simulation Output:
 ``` 
 === Test 2: Door Open During Wash at 990000 ns ===
 COMPLETE | Cycle: 00 | Timer:  7 | Door Lock: 0 | Buzzer: 1
