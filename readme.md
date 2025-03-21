@@ -9,14 +9,16 @@ A synthesizable washing machine controller implemented in Verilog, featuring con
 - **User Interface**: Cycle selection, timer display, status LEDs
 
 ## 📂 Repository Structure
+```
 ├── src/
-│ └── washing_machine.v ### Main controller module
+│ └── washing_machine.v # Main controller module
 ├── testbench/
-│ └── tb_washing_machine.v ### Comprehensive testbench
+│ └── tb_washing_machine.v # Comprehensive testbench
 |__simulation/
-           └──simulation_log.txt.v ### Simulation Results
+           └──simulation_log.txt.v # Simulation Results
 └── README.md
-└── waves.vcd ### Waves dump file
+└── waves.vcd # Waves dump file
+```
 
 ## 📊 Results
 ### Example Simulation Output:
@@ -30,4 +32,17 @@ Time: 7190000 ns | State: FILL     | Cycle: 00 | Timer:  1 | Door Lock: 1 | Buzz
 Time: 7210000 ns | State: FILL     | Cycle: 00 | Timer:  2 | Door Lock: 1 | Buzzer: 0
 Time: 7230000 ns | State: FILL     | Cycle: 00 | Timer:  3 | Door Lock: 1 | Buzzer: 0
 Time: 7250000 ns | State: FILL     | Cycle: 00 | Timer:  4 | Door Lock: 1 | Buzzer: 0 
+```
+## Scripts
+```
+bash
+```
+### Compile & Run
+```
+iverilog -o simv src/washing_machine.v testbench/tb_washing_machine.v
+vvp simv
+```
+### View Waves (optional)
+```
+gtkwave waves.vcd
 ```
